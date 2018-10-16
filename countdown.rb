@@ -10,3 +10,14 @@ def countdown(n)
   end
   return phrase
 end
+
+def countdown_with_sleep(n, 5)
+    phrase = "HAPPY NEW YEAR!"
+  counter = 0
+  
+  while counter < n do
+    puts "#{n} SECOND(S)!"
+     n -= 1
+  end
+  return phrase
+end  
