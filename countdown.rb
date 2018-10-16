@@ -5,7 +5,7 @@ def countdown(n)
   counter = 0
   
   while counter < n do
-    puts "#{n} SECCOND(s)!"
+    puts "#{n} SECOND(s)!"
      n -= 1
   end
 end
