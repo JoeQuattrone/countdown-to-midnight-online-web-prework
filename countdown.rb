@@ -11,7 +11,7 @@ def countdown(n)
   return phrase
 end
 
-def countdown_with_sleep(n, 5)
+def countdown_with_sleep(n)
     phrase = "HAPPY NEW YEAR!"
   counter = 0
   
