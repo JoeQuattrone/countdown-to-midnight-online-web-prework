@@ -6,6 +6,6 @@ def countdown(n)
   
   while counter < n do
     puts "#{n} SECCOND(s)!"
-    counter += 1 
+    counter -= 1 
   end
 end
